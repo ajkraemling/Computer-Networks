@@ -1,0 +1,19 @@
+Script started on 2025-09-09 18:20:40-04:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="76" LINES="41"]
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj1[?2004h[ajkraemling@ccc-app-p-u32 proj1]$ vim proj1server.cgcc proj1client.c -o proj1clientclear[Kvim proj1client.cgcc proj1client.c -o proj1clientclear[Kvim proj1client.cgcc proj1client.c -o proj1clientls[Kcd cs513/proj1/ls[Kvim proj1server.cls[Kcd cs513/proj1/ls[Kvim proj1server.cls[Kcd cs513/proj1/ls[Kgcc proj1client.c -o proj1client[15Pvim proj1client.cclear[Kgcc proj1client.c -o proj1client[15Pvim proj1client.cclear[Kgcc proj1client.c -o proj1client[15Pvim proj1server.c[K./proj1server &
+[?2004l[1] 3560181
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj1[?2004h[ajkraemling@ccc-app-p-u32 proj1]$ Server is listening on 9999
+
+[?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj1[?2004h[ajkraemling@ccc-app-p-u32 proj1]$ ./proj1client
+[?2004lServer: Hello ajkraemling, you are visitor number 2 to this server
+Client: Please enter your name: Ale   Boib  b
+Client: What is your guess for an integer between 1 and 100? 2
+Server/Bob: Low
+Client: What is your guess for an integer between 1 and 100? 80
+Server/Bob: High
+Client: What is your guess for an integer between 1 and 100? 42
+Server/Bob: Correct in 3 guesses
+Client: end connection
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj1[?2004h[ajkraemling@ccc-app-p-u32 proj1]$ exit
+[?2004lexit
+
+Script done on 2025-09-09 18:21:21-04:00 [COMMAND_EXIT_CODE="0"]

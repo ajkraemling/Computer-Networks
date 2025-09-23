@@ -1,16 +1,16 @@
-Script started on 2025-09-23 16:32:19-04:00 [TERM="xterm-256color" TTY="/dev/pts/41" COLUMNS="156" LINES="41"]
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ls
-[?2004lscript.log  [0m[01;32mwebclient[0m  webclient.c
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ lsexitvim webclient.c./webclient www.cnn.com -ping[K[K[K[K[K[K[K[K[K[K[K[K[Kexample.com
+Script started on 2025-09-23 17:52:01-04:00 [TERM="xterm-256color" TTY="/dev/pts/41" COLUMNS="156" LINES="41"]
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./[K[Kls
+[?2004lexample.out  results.csv  [0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c  webout
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com
 [?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ls
-[?2004lscript.log  [0m[01;32mwebclient[0m  webclient.c  webout
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat webout
+[?2004lexample.out  results.csv  [0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c  webout
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat webout
 [?2004lHTTP/1.0 200 OK
 Content-Type: text/html
 ETag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 Last-Modified: Mon, 13 Jan 2025 20:11:20 GMT
 Cache-Control: max-age=86000
-Date: Tue, 23 Sep 2025 20:32:32 GMT
+Date: Tue, 23 Sep 2025 21:52:11 GMT
 Content-Length: 1256
 Connection: close
 X-N: S
@@ -61,16 +61,14 @@ X-N: S
 </div>
 </body>
 </html>
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat webout - [Kf [K[K[K[K[K[K[K[K[K[K[K[K[K[Kls./webclient www.example.com -f example.out
-[?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat [K[K[K[Kls
-[?2004lexample.out  script.log  [0m[01;32mwebclient[0m  webclient.c  webout
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat example.out
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat weboutls[K./webclient www.example.com -f example.out
+[?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -f example.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat webout[K[K[K[K[K[K[Kexample.out
 [?2004lHTTP/1.0 200 OK
 Content-Type: text/html
 ETag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 Last-Modified: Mon, 13 Jan 2025 20:11:20 GMT
 Cache-Control: max-age=86000
-Date: Tue, 23 Sep 2025 20:33:07 GMT
+Date: Tue, 23 Sep 2025 21:52:28 GMT
 Content-Length: 1256
 Connection: close
 X-N: S
@@ -121,13 +119,13 @@ X-N: S
 </div>
 </body>
 </html>
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat example.outls[K./webclient www.example.com -f example.out[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Knf
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat example.out[27@./webclient www.example.com -f[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Knf
 [?2004lHTTP/1.0 200 OK
 Content-Type: text/html
 ETag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 Last-Modified: Mon, 13 Jan 2025 20:11:20 GMT
 Cache-Control: max-age=86000
-Date: Tue, 23 Sep 2025 20:33:32 GMT
+Date: Tue, 23 Sep 2025 21:52:46 GMT
 Content-Length: 1256
 Connection: close
 X-N: S
@@ -179,18 +177,14 @@ X-N: S
 </body>
 </html>
 ]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -nf[K[Kping
-[?2004l23.221.236.134 RTT 19 ms
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -ping[1P[1P[1P[1P[1P[1P[1P[1@c[1@n[1@n
-[?2004l146.75.39.5 RTT 13 ms
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.cnn.com -ping[4@example[C[C[C[C[C[C[C[C[C[C[K[K[Kkt
-[?2004l47.000000 1024
-47.000000 498
+[?2004l23.221.236.134 RTT 20 ms
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -ping[K[K[K[Kpkt
+[?2004l50.577000 1024
+50.584000 498
 ]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -pkt[K[K[Kinfo
-[?2004lTCP RTT: 19.987 ms
-TCP RTT var: 7.760 ms
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ls
-[?2004lexample.out  script.log  [0m[01;32mwebclient[0m  webclient.c  webout
+[?2004lTCP RTT: 18.991 ms
+TCP RTT var: 7.643 ms
 ]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ exit
 [?2004lexit
 
-Script done on 2025-09-23 16:34:24-04:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-09-23 17:53:08-04:00 [COMMAND_EXIT_CODE="0"]

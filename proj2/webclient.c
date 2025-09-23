@@ -86,10 +86,8 @@ int main (int argc, char **argv) {
 	
 	if (ping) {
 		close(sock);
-		
-		long rtt_ms = end.tv_usec - start.tv_usec;
-		
-		printf("%s RTT %ld ms\n", ipstr, (rtt_ms/1000));
+		long rtt_ms = (end.tv_sec - start.tv_sec) * 1000 + (end.tv_usec - start.tv_usec) / 1000;
+		printf("%s RTT %ld ms\n", ipstr, rtt_ms);
 		
 		return 0;
 	}
@@ -126,7 +124,7 @@ int main (int argc, char **argv) {
 			fwrite(buf, 1, n, stdout);
 		} else if (pkt) {
 			gettimeofday(&end, NULL);
-			double t_ms = (end.tv_usec - start.tv_usec) / 1000;
+			double t_ms = (end.tv_sec - start.tv_sec) * 1000.0 + (end.tv_usec - start.tv_usec) / 1000.0;			
 			pkt_log[pkt_count].time = t_ms;
 			pkt_log[pkt_count].bytes = n;
 			pkt_count++;

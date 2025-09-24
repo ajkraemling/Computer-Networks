@@ -13,7 +13,7 @@
 #include <string.h>
 #include <sys/time.h>
 
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 10240
 
 static void die(const char *s) { perror(s); exit(1);}
 
@@ -113,7 +113,7 @@ int main (int argc, char **argv) {
 		int bytes;
 	};
 
-	struct pkt_record pkt_log[200];
+	struct pkt_record pkt_log[1024];
 	int pkt_count = 0;
 
 	// Recieve response from server

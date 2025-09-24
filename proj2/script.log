@@ -1,16 +1,19 @@
-Script started on 2025-09-23 17:52:01-04:00 [TERM="xterm-256color" TTY="/dev/pts/41" COLUMNS="156" LINES="41"]
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./[K[Kls
-[?2004lexample.out  results.csv  [0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c  webout
+Script started on 2025-09-23 20:34:59-04:00 [TERM="xterm-256color" TTY="/dev/pts/41" COLUMNS="76" LINES="41"]
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ls
+[?2004l[0m[01;32mrun_ping.sh[0m  script.log  webclient.c
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ lsexitgcc webclient.c -o webclient
+[?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ls
+[?2004l[0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c
 ]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com
 [?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ls
-[?2004lexample.out  results.csv  [0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c  webout
+[?2004l[0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c  webout
 ]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat webout
 [?2004lHTTP/1.0 200 OK
 Content-Type: text/html
 ETag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 Last-Modified: Mon, 13 Jan 2025 20:11:20 GMT
 Cache-Control: max-age=86000
-Date: Tue, 23 Sep 2025 21:52:11 GMT
+Date: Wed, 24 Sep 2025 00:35:16 GMT
 Content-Length: 1256
 Connection: close
 X-N: S
@@ -61,14 +64,14 @@ X-N: S
 </div>
 </body>
 </html>
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat weboutls[K./webclient www.example.com -f example.out
-[?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -f example.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat webout[K[K[K[K[K[K[Kexample.out
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat weboutls[K./webclient www.example.com -f d[Kexample.ou t
+[?2004l]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat example.out
 [?2004lHTTP/1.0 200 OK
 Content-Type: text/html
 ETag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 Last-Modified: Mon, 13 Jan 2025 20:11:20 GMT
 Cache-Control: max-age=86000
-Date: Tue, 23 Sep 2025 21:52:28 GMT
+Date: Wed, 24 Sep 2025 00:35:37 GMT
 Content-Length: 1256
 Connection: close
 X-N: S
@@ -119,13 +122,14 @@ X-N: S
 </div>
 </body>
 </html>
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat example.out[27@./webclient www.example.com -f[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Knf
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ cat example.out./webclient www.example.com -f example.out[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Knf
 [?2004lHTTP/1.0 200 OK
 Content-Type: text/html
 ETag: "84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134"
 Last-Modified: Mon, 13 Jan 2025 20:11:20 GMT
 Cache-Control: max-age=86000
-Date: Tue, 23 Sep 2025 21:52:46 GMT
+Date: Wed, 24 Sep 2025 00:35:50 GMT
 Content-Length: 1256
 Connection: close
 X-N: S
@@ -176,15 +180,33 @@ X-N: S
 </div>
 </body>
 </html>
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -nf[K[Kping
-[?2004l23.221.236.134 RTT 20 ms
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -ping[K[K[K[Kpkt
-[?2004l50.577000 1024
-50.584000 498
-]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -pkt[K[K[Kinfo
-[?2004lTCP RTT: 18.991 ms
-TCP RTT var: 7.643 ms
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -nf[K[Kpkt
+[?2004l50.739000 1522
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -pkt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbom.gov.au -pkty[K
+[?2004l290.899000 4344
+290.966000 1448
+290.978000 10240
+290.982000 7136
+299.640000 2896
+299.843000 2896
+301.360000 2896
+302.021000 2896
+303.190000 1448
+303.214000 2896
+303.598000 1720
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.bom.gov.au -pkt[1@example.com[C[C[C[C[C[K[K[Kping
+[?2004l23.221.236.134 RTT 18 ms
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -ping[2Pbom.gov.au -pkt[C[K[K[Kping
+[?2004l23.56.163.175 RTT 12 ms
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.bom.gov.au -ping[1@example.com[C[C[C[C[C[C[K[K[K[Kinfp[Ko
+[?2004lTCP RTT: 21.792 ms
+TCP RTT var: 8.660 ms
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ ./webclient www.example.com -info[1Pbom.gov.au -ping[K[K[K[Kinfo
+[?2004lTCP RTT: 9.374 ms
+TCP RTT var: 3.757 ms
+]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ exit[K[K[K[Kls
+[?2004lexample.out  [0m[01;32mrun_ping.sh[0m  script.log  [01;32mwebclient[0m  webclient.c  webout
 ]0;ajkraemling@ccc-app-p-u32:~/cs513/proj2[?2004h[ajkraemling@ccc-app-p-u32 proj2]$ exit
 [?2004lexit
 
-Script done on 2025-09-23 17:53:08-04:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2025-09-23 20:37:11-04:00 [COMMAND_EXIT_CODE="0"]
